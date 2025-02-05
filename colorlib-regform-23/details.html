@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html dir="rtl">
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v7 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+<form action="send_email.php" method="POST">
+    <h3>צור קשר</h3>
+    <p>השאר כאן את פרטיך, ואשמח לעזור לך ולהפיק לך את האירוע הבא</p>
+    <label class="form-group">
+        <input type="text" class="form-control" name="name" required>
+        <span>שמך*</span>
+        <span class="border"></span>
+    </label>
+    <label class="form-group">
+        <input type="text" class="form-control" name="phone" required>
+        <span>טלפון*</span>
+        <span class="border"></span>
+    </label>
+    <label class="form-group">
+        <textarea name="message" class="form-control" required></textarea>
+        <span>תוכן הפנייה*</span>
+        <span class="border"></span>
+    </label>
+    <button type="submit">שלח 
+        <i class="zmdi zmdi-arrow-left" style="margin-right: 10px;"></i>
+    </button>
+</form>
+
+			</div>
+		</div>
+		
+	</body>
+</html>
