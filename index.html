@@ -78,7 +78,14 @@
             object-fit: cover;
             z-index: -1;
         }
-        
+        img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain; /* שומר על פרופורציות התמונה */
+}
         .hero-content {
             position: relative;
             animation: fadeIn 2s ease-in-out;
