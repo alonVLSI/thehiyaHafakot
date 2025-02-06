@@ -43,6 +43,17 @@
     text-align: center;
     font-family: 'Georgia', serif;
 }
+.about img {
+    width: 20%; /* התמונה תהיה לכל היותר 20% מרוחב הדף */
+    max-width: 150px; /* אפשרות למקסימום גודל פיזי */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* ממרכז את התמונה */
+    border-radius: 50%; /* הופך את התמונה לעיגול */
+    border: 4px solid white; /* מסגרת לבנה מסביב (אפשר לשנות) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* מוסיף צל עדין */
+}
+
 /* הגדרה ראשונית של ה-quote */
 .quote {
     opacity: 0;
@@ -99,10 +110,18 @@
             padding: 20px;
             border-radius: 10px;
 			
+			
         } {
             position: relative;
             animation: fadeIn 2s ease-in-out;
         }
+		.hero-content img {
+    width: 20%;
+    max-width: 200px; /* הגבלת הגודל המרבי */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 		.hero-content h1 {
     font-size: 36px; /* גודל גדול לכותרת */
     color: #ffffff; /* צבע טקסט לבן שיבלוט על רקע אפור */
@@ -324,18 +343,22 @@ section {
 		<div class	="wrapper" id="contact">
 			<iframe src="colorlib-regform-23/details.html" width="100%" height="700px" style="border:none;"></iframe>
 		</div>
-    
+    </section>
 <section class="social-links">
-    <a href="https://www.instagram.com/techiyah.o?igsh=MWR2M2Ywb2NyMDQ0Yg==" target="_blank">
+    <p style="font-size: 20px; font-weight: bold; font-style: italic; text-align: center; margin-bottom: 15px;">
+        נשמח להיפגש אתכם גם כאן 😊 :
+    </p>
+    <a href="https://www.instagram.com/techiyah.o?igsh=MWR2M2Ywb2NyMDQ0Yg==" target="_blank" style="color: #E4405F;">
         <i class="fa-brands fa-instagram"></i> אינסטגרם
     </a>
-    <a href="https://wa.me/0546360069" target="_blank">
+    <a href="https://wa.me/0546360069" target="_blank" style="color: #25D366;">
         <i class="fa-brands fa-whatsapp"></i> וואטסאפ
     </a>
-    <a href="https://www.youtube.com/@techiyahhafakot" target="_blank">
+    <a href="https://www.youtube.com/@techiyahhafakot" target="_blank" style="color: #FF0000;">
         <i class="fa-brands fa-youtube"></i> יוטיוב
     </a>
 </section>
+
 
     
     <footer>
